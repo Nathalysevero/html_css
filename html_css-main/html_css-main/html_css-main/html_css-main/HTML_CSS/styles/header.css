@@ -26,5 +26,26 @@
     display: inline-block;
     font-size: 20px;
     margin: 10px 29px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom,#5aa15e,#adca5d);
+}
+.botao_login: :hover{
+    background-color: white 
+    color: black;
+    box-shadow: 0px 8px 16px 0px (209,192,192,0,2);
+}
 
+@media screen and (min-width:102px){
+
+    .titulo_smart{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;       
+    }
+}
+@media screen and (min-width:1350px){
+
+    .cabecalho{
+        font-size: 2em;
+        
+    }
 }
